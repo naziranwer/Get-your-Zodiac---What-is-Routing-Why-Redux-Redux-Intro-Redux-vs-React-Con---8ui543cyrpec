@@ -15,9 +15,9 @@ const dispatch =useDispatch();
        <div>
        <h1>Get your Zodiac </h1>
         Enter Birthday month
-        <input id='input1' onChange={(e)=>dispatch(onInputChange(e.target.value))}  /><br/>
+        <input id='input' onChange={(e)=>dispatch(onInputChange(e.target.value))}  /><br/>
         Output Zodiac
-        <input id='input2' value={myState} />
+        <input id='output' value={myState} />
        </div>
 
     </div>
